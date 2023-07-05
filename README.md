@@ -1,0 +1,2 @@
+# DynamodbSample
+Python - Dynamodb
