@@ -1,0 +1,9 @@
+version: '3.2'
+services:
+  dynamo-db:
+    container_name: dynamodb
+    image: instructure/dynamo-local-admin
+    ports:
+      - "6000:8000"
+      - "6001:8001"
+      - "6002:8002"
